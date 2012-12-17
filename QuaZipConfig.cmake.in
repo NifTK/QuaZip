@@ -1,0 +1,12 @@
+#
+# QuaZipConfig.cmake - QuaZip CMake configuration file for external projects.
+#
+
+set(QUAZIP_LIBRARIES quazip)
+
+# The QuaZip include file directories.
+set(QUAZIP_INCLUDE_DIRS @PROJECT_SOURCE_DIR@/quazip @ZLIB_INCLUDE_DIRS@)
+ 
+# The QuaZip library directories.
+set(QUAZIP_LIBRARY_DIRS @LIBRARY_OUTPUT_PATH@)
+
